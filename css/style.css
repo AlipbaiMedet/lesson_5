@@ -1,0 +1,63 @@
+/*Обнуляющий стиль*/
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+ol li,
+ul li{
+	list-style: none;
+}
+a,
+a:visited{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-size: inherit;
+	font-weight: inherit;
+}
+img{
+	vertical-align: top;
+}
+body {
+	font-size: 14px;
+	line-height: 1;
+	max-width: 1000px;
+	margin: 0 auto;
+	text-align: justify;
+}
+/*---------------------*/
+.block {}
+.text {
+	background-color: rgba(0,233,0,0.6);
+	margin: 0 0 20px 0;
+	padding: 30px;
+}
+.paragraph {
+	background-color: rgba(233,0,0,0.6);
+}
+.blocklevel2 {}
+.level2 {
+	background-color: rgba(0,0,233,0.6);
+}
+.images {
+	/*max-width: 1000px;*/
+/*	margin: 0 auto;*/
+	/*text-align: center;*/
+}
+.picture {
+	max-width: 800px;
+	margin: 0 auto;
+	display: block;
+}
